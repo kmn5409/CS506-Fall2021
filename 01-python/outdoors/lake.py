@@ -1,3 +1,6 @@
-def draw_lake():
-    print("lake not found")
+def draw_lake(height=5):
+    print('------------------------------------')
+    for i in range(height):
+        print('  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+    print('------------------------------------')
     return
